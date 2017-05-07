@@ -1,0 +1,87 @@
+body {
+	background-image: url("../images/ep_naturalblack.png")
+}
+
+#Header {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background-color: #ff751a;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#Instructions {
+	padding-top: 15px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	background-color: #ffcc99;
+	color: #408000;
+	height: 280px;
+	width: 600px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#WinningNumber {
+	height: 95px;
+	width: 160px;
+	background-color: #00e673;
+	color: #6600ff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-size: 30px;
+
+}
+
+#WinsLosses {
+	height: 85px;
+	width: 75px;
+	background-color: #00ffff;
+	color: #004d00;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+#AlignmentWrapper2 {
+	clear: both;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+#Score {
+	height: 25px;
+	width: 165px;
+	background-color: #008080;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+#ScoreNumber {
+	height: 95px;
+	width: 160px;
+	background-color: #008080;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-size: 30px;
+}
