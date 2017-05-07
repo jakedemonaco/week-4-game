@@ -1,14 +1,13 @@
-$(window).load(function() {
-
 //Global Variables
 //----------------------------------------------------------------------------
 //Arrays and Variables for holding data
+
 var WinningNumber = Math.floor(Math.random()*(120-19+1)+19); //Random number between 19-120
 var ScoreNumber = 0; //Added up GemValue clicks
-var GemValue1 =; Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
-var GemValue2 =; Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
-var GemValue3 =; Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
-var GemValue4 =; Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
+var GemValue1 = Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
+var GemValue2 = Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
+var GemValue3 = Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
+var GemValue4 = Math.floor(Math.random()*(12-1+1)+1);//Random number between 1-12
 var Wins = 0;	 //How many times you were able to match ScoreNumber to WinningNumber exactly
 var Losses = 0;  //How many times you let ScoreNumber exceed the value of WinningNumber
 
@@ -19,10 +18,10 @@ function RoundStart() {
 	//Round Reset
 	ScoreNumber = 0;
 	WinningNumber = Math.floor(Math.random()*(120-19+1)+19);
-	GemValue1 =; Math.floor(Math.random()*(12-1+1)+1);
-	GemValue2 =; Math.floor(Math.random()*(12-1+1)+1);
-	GemValue3 =; Math.floor(Math.random()*(12-1+1)+1);
-	GemValue4 =; Math.floor(Math.random()*(12-1+1)+1);
+	GemValue1 = Math.floor(Math.random()*(12-1+1)+1);
+	GemValue2 = Math.floor(Math.random()*(12-1+1)+1);
+	GemValue3 = Math.floor(Math.random()*(12-1+1)+1);
+	GemValue4 = Math.floor(Math.random()*(12-1+1)+1);
 }
 
 function Gem1Add() {
@@ -45,16 +44,23 @@ function Gem4Add() {
 	//Update Score Being Shown
 }
 
-
-
-
-
 //Main Process
 //----------------------------------------------------------------------------
+
 RoundStart();
 
 console.log(GemValue1);
+console.log(GemValue2);
+console.log(GemValue3);
+console.log(GemValue4);
 
-$("#Gem1").on("click", Gem1Add()
+$("#ScoreNumber").html = ScoreNumber;
 
-});
+$("#Gem1").on("click", Gem1Add());
+
+
+
+
+
+
+
